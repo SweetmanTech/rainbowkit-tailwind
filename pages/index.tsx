@@ -19,64 +19,36 @@ const Home: NextPage = () => {
         <ConnectButton />
 
         <h1 className={styles.title}>
-          Welcome to <a href="">RainbowKit</a> + <a href="">wagmi</a> +{' '}
-          <a href="https://nextjs.org">Next.js!</a>
+          <a rel="noreferrer" target="_blank" href="https://github.com/SweetmanTech/rainbowkit-tailwind">
+            NextJS + Rainbowkit + Tailwind
+          </a>
         </h1>
 
+        
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.tsx</code>
+        Tezos and Solana plugins get started by editing{' '}
+          <code className={styles.code}>pages/index.tsx</code> 
         </p>
 
-        <div className={styles.grid}>
-          <a href="https://rainbowkit.com" className={styles.card}>
-            <h2>RainbowKit Documentation &rarr;</h2>
-            <p>Learn how to customize your wallet connection flow.</p>
-          </a>
+        <div className="flex flex-col gap-4">
 
-          <a href="https://wagmi.sh" className={styles.card}>
-            <h2>wagmi Documentation &rarr;</h2>
-            <p>Learn how to interact with Ethereum.</p>
-          </a>
+            
+            <a href="#" className="py-10 px-3 border rounded-lg border-black">
+              <div className="text-2xl">Solana</div>
+              <p>Starting with the <code className={styles.code}>components/SolanaCard</code> to get started</p>
+            </a>
 
-          <a
-            href="https://github.com/rainbow-me/rainbowkit/tree/main/examples"
-            className={styles.card}
-          >
-            <h2>RainbowKit Examples &rarr;</h2>
-            <p>Discover boilerplate example RainbowKit projects.</p>
-          </a>
+            <a href="#" className="py-10 px-3 border rounded-lg border-black">
+              <div className="text-2xl">Tezos</div>
+              <p>Starting with the <code className={styles.code}>components/SolanaCard</code> to get started</p>
+            </a>
 
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Next.js Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Next.js Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+            <a href="#" className="py-10 px-3 border rounded-lg border-black">
+              <div className="text-2xl">Ethereum</div>
+              <p>Starting with the <code className={styles.code}>components/SolanaCard</code> to get started</p>
+            </a>
         </div>
       </main>
-
-      <footer className={styles.footer}>
-        <a href="https://rainbow.me" target="_blank" rel="noopener noreferrer">
-          Made with ❤️ by your frens at 🌈
-        </a>
-      </footer>
     </div>
   );
 };
