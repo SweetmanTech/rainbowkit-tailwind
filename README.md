@@ -1,4 +1,6 @@
-This is a [RainbowKit](https://rainbowkit.com) + [wagmi](https://wagmi.sh) + [Next.js](https://nextjs.org/) project bootstrapped with [`create-rainbowkit`](https://github.com/rainbow-me/rainbowkit/tree/main/packages/create-rainbowkit).
+This is a [RainbowKit](https://rainbowkit.com) + [wagmi](https://wagmi.sh) + [Next.js](https://nextjs.org/) project.
+
+<img width="1439" alt="Screen Shot 2022-11-13 at 1 44 02 PM" src="https://user-images.githubusercontent.com/23249402/201533339-9444c54c-7d17-4b70-b432-bfc0d9eb9469.png">
 
 ## Getting Started
 
